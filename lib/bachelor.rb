@@ -66,7 +66,7 @@ def get_average_age_for_season(data, season) #working
               contestants.each do |detail, value|
                   if detail == "age"
                       age_total += value.to_i #convert the string to an integer
-                      counter += 1 #keep tabs on how many women there are to average properly.
+                      counter += 1 #add for each woman whose age is added to the average
                       end
                   end
               end
